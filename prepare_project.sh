@@ -1,7 +1,9 @@
 #!/bin/sh
 
-for file in $(find ./configs -type f); do
-  echo "$file"
+configs_filenames="tsconfig.json tsconfig.build.json .eslintrc.js .prettierrc"
+
+for filename in $configs_filenames; do
+  curl -O "https://raw.githubusercontent.com/egor7orlov/ts-project-bootstrap/main/configs/$filename"
 done
 
 npm install -D @types/node \
@@ -22,4 +24,5 @@ npm install -D @types/node \
   tsconfig-paths \
   typescript
 
+# TODO: add npm script for running jest
 # TODO: config husky
