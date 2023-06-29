@@ -1,5 +1,7 @@
 #!/bin/sh
 
+clear
+
 # If `npm` is not installed suggest user to install Node.js via NVM
 if [ ! -$(command -v npm) ]; then
   tput setaf 1 && tput bold && echo "==================================" && tput sgr0
