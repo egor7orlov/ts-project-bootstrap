@@ -5,7 +5,7 @@ your TypeScript-powered project; or you haven't even done anything yet except cr
 revolutionary project — just execute the next command:
 
 ```shell
-curl -fsSL https://raw.githubusercontent.com/egor7orlov/ts-project-bootstrap/main/prepare_project.sh | sh
+sh <(curl -s https://raw.githubusercontent.com/egor7orlov/ts-project-bootstrap/main/prepare_project.sh)
 ```
 
 ### What does this script do?
