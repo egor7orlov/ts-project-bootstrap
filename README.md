@@ -1,7 +1,5 @@
 # TypeScript project bootstrap
 
----
-
 If you found yourself in situation where you've just executed `npm init` command but don't know what to do next with
 your TypeScript-powered project; or you haven't even done anything yet except created an empty folder for your future
 revolutionary project — just execute the next command:
