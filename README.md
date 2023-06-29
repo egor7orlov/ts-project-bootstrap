@@ -10,7 +10,7 @@ revolutionary project — just execute the next command:
 curl -fsSL https://raw.githubusercontent.com/egor7orlov/ts-project-bootstrap/main/prepare_project.sh | sh
 ```
 
-### What this script does?
+### What does this script do?
 
 - Adds usable **TypeScript** configs (`tsconfig.json` and `tsconfig.build.json`)
 - Adds **ESLint** and **Prettier** configs with all messy rules described
