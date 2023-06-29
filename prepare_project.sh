@@ -89,4 +89,3 @@ echo
 tput bold && echo "You are all set up! Try running \`npm run start\`" && tput sgr0
 echo
 tput setaf 2 && tput bold && echo "==================================" && tput sgr0
-exit 1
